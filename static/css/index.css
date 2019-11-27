@@ -1,0 +1,27 @@
+.hot-element {
+  background-color: red;
+}
+
+.fuser-base {
+  color: white;
+}
+
+body.fuser-base {
+  background: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fuser-border {
+  border: white 1px solid;
+}
+
+.fuser-container-10px {
+  margin: 10px;
+  width: auto;
+}
+
+.inverted {
+    background-color: white;
+    color: black;
+}
