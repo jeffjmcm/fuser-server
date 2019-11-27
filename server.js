@@ -1,5 +1,8 @@
 const express = require("express");
 const bcrypt = require('bcrypt');
+
+const PORT = process.env.PORT || 3000;
+
 var app = express();
 
 const users = [
@@ -46,6 +49,6 @@ app.use("/static", express.static("static"));
 app.post("/user/register", register)
 app.post("/user/login", login);
 
-app.listen(3000, () => {
-    console.log("listesning on port 3000...");
+app.listen(PORT, () => {
+    console.log('Listening on port ' + PORT + "...");
 });

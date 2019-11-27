@@ -3,17 +3,41 @@
 }
 
 .fuser-base {
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: #F3F4F6;
 }
 
 body.fuser-base {
-  background: black;
   padding: 0px;
   margin: 0px;
 }
 
+.fuser-container-background-secondary {
+  background: #151621;
+}
+
+.fuser-container-background-primary {
+  background: #2D3047;
+}
+
+.fuser-content-background-primary {
+  background: #53A2BE;
+}
+
+.fuser-content-background-secondary {
+  background: #D68FD6;
+}
+
+.fuser-content-color-primary {
+  color: #53A2BE;
+}
+
+.fuser-content-color-secondary {
+  color: #D68FD6;
+}
+
 .fuser-border {
-  border: white 1px solid;
+  border: #F3F4F6 1px solid;
 }
 
 .fuser-container-10px {
@@ -21,7 +45,37 @@ body.fuser-base {
   width: auto;
 }
 
-.inverted {
-    background-color: white;
-    color: black;
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.fuser-card-title {
+  display: block;
+  width: 100%;
+  line-height: 1.5em;
+  font-size: 2em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="text"], input[type="email"], input[type="password"].fuser-detail-input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  padding-left: 0.3em;
+  margin-bottom: 0.5em;
+  line-height: 1.75em;
+  font-size: 1.0em;
 }
